@@ -96,6 +96,10 @@
 		padding: 5rem 1.5rem 1.5rem;
 		max-width: 1200px;
 		background-color: #fff;
+        flex-direction: column;
+		align-items: center; /* Center items horizontally */
+		justify-content: center; /* Center items vertically */
+		gap: 1.5rem;
 	}
 
 	.team-member {

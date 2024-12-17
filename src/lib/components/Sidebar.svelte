@@ -39,7 +39,7 @@
 		<img 
 			src="/lisa_and_helen.png" 
 			alt="Lisa and Helen" 
-			class="w-[100px] h-[100px] object-cover rounded-full border border-black"
+			class="w-[95px] h-[95px] object-cover rounded-full border border-black"
 		/>
 	</a>
 
