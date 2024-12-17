@@ -7,14 +7,7 @@
 
 
 
-<!-- <form method="POST" use:form>
-	<label>First Name: <input type="text" name="firstName" /></label>
-	<label>Last Name: <input type="text" name="lastName" /></label>
-	<label>Email: <input type="email" name="email" /></label>
-	<label>Message: <textarea name="message"></textarea></label>
 
-	<button type="submit">Submit</button>
-</form> -->
 
 <!-- Hero Section -->
 <section class="hero">
