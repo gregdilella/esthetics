@@ -62,6 +62,13 @@
 		text-align: center;
 	}
 
+	/* Adjust hero image on small screens */
+	@media (max-width: 768px) {
+		.hero {
+			background-position: right center;
+		}
+	}
+
 	/* Contact Section */
 	.contact-content {
 		max-width: 800px;
