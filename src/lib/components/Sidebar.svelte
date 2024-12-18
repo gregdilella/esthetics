@@ -135,10 +135,7 @@
 		flex-shrink: 0;
 	}
 
-	.icon {
-		width: 20px;
-		height: 20px;
-	}
+	
 
 	.menu-toggle {
 		display: none;
@@ -147,13 +144,7 @@
 		cursor: pointer;
 	}
 
-	/* Modal Styles */
-	.menu-modal {
-		background-color: white;
-		padding: 1.5rem;
-		border-radius: 0.5rem;
-		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-	}
+
 
 	.modal-header {
 		display: flex;

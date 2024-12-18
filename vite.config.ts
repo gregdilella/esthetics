@@ -5,5 +5,8 @@ export default defineConfig({
 	plugins: [sveltekit()],
 	optimizeDeps: {
 		include: ['zod']
-	}
+	},
+	build: {
+		outDir: 'dist',
+	},
 });

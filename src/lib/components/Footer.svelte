@@ -63,15 +63,18 @@
 		font-size: 1rem;
 		font-weight: normal;
 		color: #555;
+		white-space: nowrap; /* Prevent wrapping */
 	}
 
 	.info {
-		font-size: 1rem;
+		font-size: 0.85rem; /* Smaller text */
 		color: #333;
+		line-height: 1.2; /* Reduced line spacing */
+		margin-top: 0.25rem;
 	}
 
 	.info p {
-		margin: 0.2rem 0;
+		margin: 0.1rem 0; /* Tightened margin between lines */
 	}
 
 	/* Social Media Icon */
@@ -80,14 +83,19 @@
 		align-items: center;
 	}
 
-	.icon {
-		width: 24px;
-		height: 24px;
-		color: #333; /* Default icon color */
-		transition: color 0.3s ease;
-	}
 
-	.icon:hover {
-		color: #e1306c; /* Instagram brand color on hover */
+	/* Small screens adjustments */
+	@media (max-width: 600px) {
+		.footer {
+			padding: 0 1rem; /* Reduce horizontal padding */
+		}
+
+		.title {
+			font-size: 1.2rem; /* Slightly smaller title */
+		}
+
+		.info {
+			font-size: 0.75rem; /* Further reduce info text size */
+		}
 	}
 </style>
